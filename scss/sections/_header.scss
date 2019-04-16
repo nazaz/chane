@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 220px ;
+    
+}
+
+.nav {
+    display: flex;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: $font-Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    
+    &__list  {
+        display: flex;
+        flex-direction: row;
+        
+    }  
+    
+
+    &__item {
+        margin-right: 35px;
+        padding: 8px;
+        border: none;
+        border-top:2px solid transparent;
+        cursor: pointer;
+        
+
+        & a {
+            color: $mostly-black;
+        }
+        
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        &:hover {
+            border-top:2px solid red;
+            
+        }
+
+    }
+
+    
+
+}
+
+
+

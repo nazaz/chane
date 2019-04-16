@@ -1,0 +1,48 @@
+//Font Size Color Text
+@mixin p-holder {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: $font-Raleway;
+    color: $mostly-black;
+    
+}
+// h*
+@mixin h-holder {
+    font-size: 90px;
+    line-height: 27px;
+    font-family: $font-Raleway;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+// button
+@mixin button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+    height: 50px;
+    text-align: center; 
+    cursor: pointer;
+    box-shadow: 0px 2px 5px;
+
+    & a {
+        color: $white;
+        text-transform: uppercase;
+        
+        &:hover {
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.9s;
+        }
+    }
+    
+}
+
+//placeholder
+
+@mixin placeholder-email{
+    
+}

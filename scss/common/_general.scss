@@ -1,0 +1,13 @@
+body {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 100%;
+    justify-content: flex-end;
+    
+}
